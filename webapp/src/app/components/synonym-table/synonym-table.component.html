@@ -1,0 +1,12 @@
+
+<table class="synonymTable" *ngIf="tableData" >
+    <thead>
+        <td colspan="2">Synonyms per Word</td>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of tableData">
+            <td>{{row.word}}</td>
+            <td>{{row.synonyms_found}}</td>
+        </tr>
+    </tbody>
+</table>

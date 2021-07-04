@@ -1,0 +1,11 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main_container {
+  width: 34vh;
+  align-content: center;
+  margin: auto;
+  margin-top: 10vh;
+}

@@ -1,0 +1,9 @@
+<div class="text_parser_container">
+    <div class="input_container">
+        <textarea placeholder="Insert Text" type="text" #parseText></textarea>
+    </div>
+    <div class="button_container">
+        <button (click)="clearTable(); parseText.value=''">Clear</button>
+        <button (click)="getText(parseText.value)">Parse</button>
+    </div>
+</div> 
