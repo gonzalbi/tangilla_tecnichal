@@ -6,5 +6,5 @@ Here you can change the config to run the api server in the port that you wish a
 2. Webapp/proxy.conf
 In this file you should modify the target atribute with the port that you previously set up on the backend folder
 
-After this you can run the app from the bat or sh file depending the os you are using or from the shell running npm start from the main folder
+After this you can run the app from the bat or sh file depending the os you are using
 
