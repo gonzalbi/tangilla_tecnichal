@@ -6,4 +6,5 @@ call npm install
 
 cd ..
 
+call npm i
 call npm start

@@ -6,4 +6,5 @@ npm install
 
 cd ..
 
+npm i
 npm start
