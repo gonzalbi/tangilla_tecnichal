@@ -1,0 +1,17 @@
+{
+  "name": "tangilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webapp" : "cd webapp && npm start ",
+    "server" : "cd backend && node . ",
+    "start": "npm-run-all --parallel server webapp", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}

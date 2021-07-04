@@ -1,0 +1,10 @@
+To execute this app you need to modify two config files from the backend folder and webapp folder.
+
+1.Backend/Config/Index.js
+Here you can change the config to run the api server in the port that you wish and the database configuration for the app to be able to connnect
+
+2. Webapp/proxy.conf
+In this file you should modify the target atribute with the port that you previously set up on the backend folder
+
+After this you can run the app from the bat or sh file depending the os you are using or from the shell running npm start from the main folder
+
